@@ -1,4 +1,4 @@
-var caanvas = new fabric.Canvas("myCanvas")
+var canvas = new fabric.Canvas("myCanvas")
 
 ball_x = 0;
 ball_y = 0;
