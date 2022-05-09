@@ -44,8 +44,8 @@ function my_keydown(e)
 	console.log(keyPressed);
 	if((ball_x == hole_x)&& ball_y == hole_y){
 		canvas.remove(ball_obj);
-		document.getElementById("h3").innerHTML = "you have hit the goal";
-		document.getElementById("myCanvas").style.borderColor = "red"
+		document.getElementById("hd3").innerHTML = "you have hit the goal";
+		document.getElementById("myCanvas").style.borderColor = "red";
 	}
 	
 	else{
